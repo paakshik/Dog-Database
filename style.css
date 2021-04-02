@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  border: 2px solid black;
+  margin-top:80px;
+  margin-left: 200px;
+}
+#feedFood{
+  position: absolute;
+  top:13%;
+  left: 40%;
+  z-index: 60;
+  background-color:transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 33px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#addFood{
+  position: absolute;
+  top:13%;
+  left: 50%;
+  z-index: 60;
+  background-color:transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 33px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#feedFood:hover{
+  background-color: rgb(214, 32, 160);
+  font-weight: bolder;
+}
+#addFood:hover{
+  background-color: rgb(13, 245, 13);
+  font-weight: bolder;
+}
+
